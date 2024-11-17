@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+.navbar{
+
+    position: sticky;
+    top: 0px;
+    background-color: rgb(44 62 80);
+    font-size:50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 70px;
+    padding: 45px;
+
+
+}
+
+a{
+text-decoration: none;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li a{
+
+    color: rgb(255, 255, 255);
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.container-fluid{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;}
+  
+.navbar-nav{
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px 25px;
+}
+
+
+#Start_Bootstrap{
+
+background-color: rgb(26 188 156);
+height: 1300px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+
+}
+.imgme{
+margin: 0 20% 0 20%;
+}
+#Start_Bootstrap img{
+    height: 35rem;
+    text-align: center;
+}
+#Start_Bootstrap h1 {
+    color: white;
+    font-size: 150px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+#Start_Bootstrap p {
+    color: white;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+#Portfolio{
+
+
+    height: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+padding: 20px 0 50px 0;
+}
+    
+    
+
+#Portfolio .contener_Portfolio h2 {
+
+
+        color: rgb(44 62 80);
+        font-size: 120px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        margin: 35px;
+
+}
+.contener_Portfolio_imgs{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap:20px 20px;
+
+}
+#Portfolio .imges img{
+
+        height: 500.1px;
+ }
+
+ 
+#About{
+
+    background-color: rgb(26 188 156);
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px 0 50px 0;
+}
+
+#About h2 { 
+
+    color: rgb(255, 255, 255);
+    font-size: 120px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin: 35px;
+
+}
+#About .parg  { 
+    display: flex;
+}
+#About .parg p { 
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 900px;
+    margin: 20px 30px;
+    color: white;
+}
+
+#About button  { 
+border:5px solid rgb(255, 255, 255);
+border-radius: 16px;
+background-color: rgb(26 188 156);
+font-size: 60px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+padding: 15px;
+color: white;
+
+}
+.btt{
+margin-top: 50px;
+    text-align: center;
+}
+
+#Contact{
+
+    background-color: rgb(255, 255, 255);
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px 0 50px 0;
+}
+.contener_Contact{
+    width: 90%;
+
+}
+#Contact h2 { 
+
+    color: rgb(44 62 80);
+    font-size: 120px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin: 35px;
+
+}
+
+.custom-form {
+    width: 50%;
+    margin: 20px auto;
+
+    font-family: "Roboto", sans-serif;
+
+  }
+
+  .custom-form input,
+.custom-form textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  min-height: 45px;
+  max-height: 250px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.custom-form button {
+    height: 120px;
+    width: 25%;
+    padding: 10px;
+    background-color: rgb(26 188 156);
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  #full-name ,  #email,  #phone, #message{
+    font-size: 50px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  
+ 
+  #address{
+    background-color: #2c3e50;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+color: white;
+    padding: 20px 0 50px 0;
+
+
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+#address .Location,.Around,.Freelancer{
+width: 30%;
+text-align: center;
+}
+
+footer{
+background-color: rgb(26, 37, 47);
+height: 100px;
+padding-top: 30px ;
+}
+footer p {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center
+
+    }
